@@ -1,0 +1,12 @@
+train: /home/ubuntu/Documents/THP_CODES/Q2_Object Detection/dataset/train/images
+val: /home/ubuntu/Documents/THP_CODES/Q2_Object Detection/dataset/valid/images
+
+nc: 3
+names: ['camera', 'humanoid-arm', 'humanoid-leg']
+
+roboflow:
+  workspace: preethi-ycobs
+  project: robot-ut0ll
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/preethi-ycobs/robot-ut0ll/dataset/4

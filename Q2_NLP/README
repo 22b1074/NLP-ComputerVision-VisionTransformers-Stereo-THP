@@ -1,0 +1,11 @@
+1) Install libraries required with compatible versions
+2)I am splitting text into lines
+3)Then storing it in structured data(using  Haystack's InMemoryDocumentStore)under 3 keys like objectives,progress, team_members by seeing a line comes under which section(i wrote up small pdf for this ‘thv.pdf’)
+4)Then used TransformerReader(as this is compatible version) to generate answers from above retrieved document
+5)Then used pipeline to take query and generate answer based on relevant content in retrieved document
+6)For now its working properly , i mean after installing libraries just run Q2_NLP.py file ,it prompts  
+‘you: ‘ after sometime and here we can ask query and answer is given in ‘Chatbot: ‘ prompt 
+and to stop asking questions we should give query as ‘exit’
+
+For now chatbot is working giving answers but not proper answers need to work on that 
+

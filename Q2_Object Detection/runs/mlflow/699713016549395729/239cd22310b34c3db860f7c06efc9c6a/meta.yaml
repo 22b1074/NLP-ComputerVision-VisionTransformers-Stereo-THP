@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/Documents/Q2_CV/runs/mlflow/699713016549395729/239cd22310b34c3db860f7c06efc9c6a/artifacts
+end_time: 1729453176260
+entry_point_name: ''
+experiment_id: '699713016549395729'
+lifecycle_stage: active
+run_id: 239cd22310b34c3db860f7c06efc9c6a
+run_name: train5
+run_uuid: 239cd22310b34c3db860f7c06efc9c6a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729453173396
+status: 3
+tags: []
+user_id: ubuntu

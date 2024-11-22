@@ -1,0 +1,15 @@
+artifact_uri: /home/ubuntu/Documents/THP_CODES/Q1_Object Detection/runs/mlflow/765978403290085718/fe911cdda8824efbabfba98c559a9f4c/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '765978403290085718'
+lifecycle_stage: active
+run_id: fe911cdda8824efbabfba98c559a9f4c
+run_name: train2
+run_uuid: fe911cdda8824efbabfba98c559a9f4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729446550321
+status: 1
+tags: []
+user_id: ubuntu

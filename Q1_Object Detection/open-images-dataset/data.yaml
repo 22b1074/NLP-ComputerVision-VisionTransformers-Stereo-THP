@@ -1,0 +1,5 @@
+train: /home/ubuntu/Documents/THP_CODES/Q1_Object Detection/open-images-dataset/train/images
+val: /home/ubuntu/Documents/THP_CODES/Q1_Object Detection/open-images-dataset/val/images
+# chaneg above paths accordingly
+nc: 2  # Number of classes, adjust this based on your dataset
+names: ['Laptop', 'Book']  # Replace with your actual class names
