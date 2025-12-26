@@ -14,7 +14,6 @@
 **Tech Stack:** Python, gTTS, googletrans, langdetect, PyPDF2, python-docx  
 **Author:** Preethi Chappidi | IIT Bombay
 
---
 
 ## Q1_Object_Detection
 
@@ -41,4 +40,20 @@
 
 **Tech Stack:** PyTorch, YOLOv8, FiftyOne, Open Images V7  
 
---
+## Q2_Object_Detection
+
+# 🤖 Humanoid Robot Component Detection (YOLO)
+
+- Implemented a **YOLO-based object detection system** to identify humanoid robot components
+- Target components: **Arms, Legs, Sensors, Cameras**
+- Trained using **YOLOv8 (PyTorch)** for detection and inference
+- Due to limited availability of humanoid datasets, **human arms and legs were used as proxies**  
+  (justified by structural similarity to humanoid robots)
+- Created and labeled a **custom dataset using Roboflow**
+- Combined **robot component images + human limb images** for robust training
+- Dataset includes **annotated bounding boxes** in YOLO format
+- Evaluated model using **Precision, Recall, and mAP**
+
+**Tools & Tech:** YOLOv8, PyTorch, Roboflow  
+
+
