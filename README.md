@@ -56,4 +56,23 @@
 
 **Tools & Tech:** YOLOv8, PyTorch, Roboflow  
 
+## Q1_Stereo_Imaging
+
+# 👁️ Stereo Depth Estimation for Robotics
+
+- Implemented a **stereo vision–based depth estimation pipeline** using **OpenCV + deep learning**
+- Used **Middlebury Stereo Dataset (calibrated)** for evaluation and ground truth reference
+- Computed **disparity maps** using:
+  - Classical OpenCV StereoBM (baseline)
+  - **PSMNet (deep stereo model)** for accurate depth estimation
+- Converted disparity to **metric depth** using camera **baseline & focal length**
+- Visualized **disparity maps and depth maps** with color encoding
+- Evaluated performance using **MSE, SSIM, and D1 error (%)**
+- Benchmarked **runtime vs accuracy** for real-time feasibility
+- Tested robustness across scenes with **varying lighting conditions**
+- Observed improved depth consistency with PSMNet under low-texture and low-light regions
+
+**Metrics Used:** MSE, SSIM, D1-all, D1-noc, Runtime  
+**Dataset:** Middlebury Stereo (calibrated ground truth)  
+**Tech Stack:** Python, OpenCV, PyTorch, PSMNet, NumPy
 
